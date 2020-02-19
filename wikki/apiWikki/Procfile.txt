@@ -1,1 +1,1 @@
-web: gunicorn wikki.wsgi
+web: gunicorn apidjango.wsgi --log file -
